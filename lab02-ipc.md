@@ -453,6 +453,8 @@ do {
 
 Запрос у пользователя команды вкупе с проверкой вежливости можно выполнить так:
 ```
+const char PLEASE[] = "please";
+
 char* input = NULL;
 char buffer[256];
 while (!input) {
