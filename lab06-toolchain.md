@@ -250,7 +250,7 @@ find /n " puts" preprocessed.c
 Результат:
 
 ``` text
----------- SIMPLE.GCC-E.TXT
+---------- PREPROCESSED.C
 [395]  int __attribute__((__cdecl__)) puts(const char *_Str);
 [885]    puts("Hi!");
 ```
